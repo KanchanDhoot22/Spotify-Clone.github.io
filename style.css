@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    font-family: 'Maven Pro', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 72px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+    font-size: 1.3rem;
+}
+.brand img{
+    width: 73px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+    /* font-family: 'Oswald', sans-serif; */
+    /* font-family: 'Water Brush', cursive; */
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    /* margin-bottom: 120px; */
+    width: 70%;
+    border-radius: 12px;
+    /* margin-bottom: 230px; */
+    padding: 34px;
+    padding-bottom: 5px;
+    background-image: url('./images/bg.jpg');
+    background-repeat: no-repeat; 
+background-size: cover;
+/* height: 10%; */
+}
+
+.bottom{
+    position: sticky;
+    height: 90px;
+    /* height: 110px; */
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 14px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.songItem{
+     height: 50px;
+     display: flex;
+     background-color: white;
+     width: 80%;
+     color: black;
+     margin: 12px 0px;
+     justify-content: space-between;
+     align-items: center;
+     border-radius: 23px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+
+}
+
+.timeStamp{
+    margin: 0 23px;
+    /* cursor: pointer; */
+}
+
+.timeStamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 9vw;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
